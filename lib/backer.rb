@@ -4,7 +4,7 @@ class Backer
 
   attr_accessor :name, :backed_projects
 
-  def initialie(name)
+  def initialize(name)
     @name = name
     @backed_projects = Array.new
   end
