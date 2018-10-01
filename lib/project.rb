@@ -2,6 +2,8 @@ require 'pry'
 
 class Projects
 
+  attr_accessor :title, backers
+
   def initialize(title)
     @title = title
     @backers = Array.new
@@ -11,4 +13,4 @@ class Projects
     @backers << backer
   end
 
-end 
+end
