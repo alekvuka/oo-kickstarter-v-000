@@ -1,6 +1,6 @@
 require 'pry'
 
-class Projects
+class Project
 
   attr_accessor :title, :backers
 
